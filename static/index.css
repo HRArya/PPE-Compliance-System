@@ -1,0 +1,509 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1048px;
+  height: 587px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0);
+}
+.image {
+  position: absolute;
+  height: 587px;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: url(./assets/images/43f572880dd00a4d79c8f9cda4baa48bd6d354c2.png)
+    no-repeat center;
+  background-size: cover;
+}
+.groups {
+  position: absolute;
+  width: 1048px;
+  height: 260px;
+  right: 0;
+  bottom: 325px;
+  background: rgba(0, 0, 0, 0);
+  z-index: 17;
+}
+.flex-column-ec {
+  position: absolute;
+  width: 113px;
+  height: 229px;
+  right: 19px;
+  bottom: 16px;
+  z-index: 24;
+}
+.image-1 {
+  position: relative;
+  width: 113px;
+  height: 92px;
+  margin: 0 0 0 0;
+  font-size: 0px;
+  background: url(./assets/images/c5bf3c6b09b0d04b9083b6dd76861e43c9ebeba6.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 24;
+  overflow: visible auto;
+}
+.grade {
+  display: block;
+  position: relative;
+  height: 10px;
+  margin: 54px 0 0 38px;
+  color: #c7a2a1;
+  font-family: Inter, var(--default-font-family);
+  font-size: 8.399999618530273px;
+  font-weight: 300;
+  line-height: 10px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 26;
+}
+.accredited-by {
+  display: block;
+  position: relative;
+  height: 10px;
+  margin: 6px 0 0 31px;
+  color: #c35a5b;
+  font-family: Inter, var(--default-font-family);
+  font-size: 5.900000095367432px;
+  font-weight: 600;
+  line-height: 7.14px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 25;
+}
+.naac {
+  display: block;
+  position: relative;
+  height: 25px;
+  margin: 3px 0 0 13px;
+  color: #c67274;
+  font-family: Inter, var(--default-font-family);
+  font-size: 28.399999618530273px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 22;
+}
+.national-assessment-and {
+  display: block;
+  position: relative;
+  height: 7px;
+  margin: 2px 0 0 10px;
+  color: #7d7d7d;
+  font-family: Inter, var(--default-font-family);
+  font-size: 5.099999904632568px;
+  font-weight: 600;
+  line-height: 6.172px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 21;
+}
+.accreditation-council {
+  display: block;
+  position: relative;
+  height: 7px;
+  margin: 1px 0 0 15px;
+  color: #929292;
+  font-family: Inter, var(--default-font-family);
+  font-size: 6px;
+  font-weight: 600;
+  line-height: 7px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 20;
+}
+.image-2 {
+  position: relative;
+  width: 83px;
+  height: 82px;
+  margin: 10px 0 0 15px;
+  background: url(./assets/images/c2643cb18d6b161533c50fae3406fba5f71e9e39.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 18;
+  overflow: visible auto;
+}
+.image-3 {
+  position: relative;
+  width: 59px;
+  height: 39px;
+  margin: 21px 0 0 11px;
+  background: url(./assets/images/2939c815d894afa4c499e74b75fbbd2288f80c00.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 19;
+}
+.image-4 {
+  position: absolute;
+  width: 132px;
+  height: 132px;
+  right: 897px;
+  bottom: 108px;
+  background: url(./assets/images/f2a5a26a23401cb0c6f93d16089d3e2ab9973301.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 32;
+}
+.svit {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 13px;
+  right: 43px;
+  bottom: 7px;
+  color: #afaeac;
+  font-family: Inter, var(--default-font-family);
+  font-size: 12.199999809265137px;
+  font-weight: 400;
+  line-height: 13px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 32;
+}
+.flex-column-f {
+  position: absolute;
+  width: 715px;
+  height: 134px;
+  right: 157px;
+  bottom: 94px;
+  font-size: 0px;
+  z-index: 30;
+}
+.sai-vidya-institute-of-technology {
+  display: block;
+  position: relative;
+  height: 29px;
+  margin: 0 0 0 0;
+  color: #c71c1c;
+  font-family: Inter, var(--default-font-family);
+  font-size: 34.900001525878906px;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 30;
+}
+.approved-by-alct {
+  display: block;
+  position: relative;
+  height: 21px;
+  margin: 6px 0 0 19px;
+  color: #3e3e3e;
+  font-family: Inter, var(--default-font-family);
+  font-size: 14.5px;
+  font-weight: 600;
+  line-height: 17.548px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 29;
+}
+.department-of-co {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 581px;
+  height: 47px;
+  margin: 31px 0 0 34.545px;
+  color: #243f76;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20.700000762939453px;
+  font-weight: 600;
+  line-height: 23.166px;
+  text-align: center;
+  text-overflow: initial;
+  z-index: 23;
+  overflow: hidden;
+}
+.raianukunte-beng {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  right: 338px;
+  bottom: 55px;
+  color: #664949;
+  font-family: Inter, var(--default-font-family);
+  font-size: 15.399999618530273px;
+  font-weight: 600;
+  line-height: 18.637px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 27;
+}
+.text-b {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 16px;
+  right: 267px;
+  bottom: 58px;
+  color: #393939;
+  font-family: Inter, var(--default-font-family);
+  font-size: 15.5px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 28;
+}
+.groups-5 {
+  position: absolute;
+  width: 1048px;
+  height: 546px;
+  right: 19px;
+  bottom: 0;
+  font-size: 0px;
+  background: rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+.final-year-proje {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 259px;
+  height: 69px;
+  margin: 173px 0 0 382.75px;
+  color: #cb6c2b;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30.299999237060547px;
+  font-weight: 600;
+  line-height: 34.23px;
+  text-align: center;
+  text-overflow: initial;
+  z-index: 4;
+  overflow: hidden;
+}
+.workers-guideli {
+  display: block;
+  position: relative;
+  height: 38px;
+  margin: 8px 0 0 229px;
+  color: #4b5665;
+  font-family: Inter, var(--default-font-family);
+  font-size: 28.700000762939453px;
+  font-weight: 600;
+  line-height: 34.734px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 3;
+}
+.admin-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 192px;
+  height: 35px;
+  margin: 19px 0 0 411px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30.299999237060547px;
+  font-weight: 600;
+  line-height: 34.23px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 6;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 8px;
+  position: relative;
+  width: 240px;
+  margin: 15px 0 0 392px;
+  z-index: 7;
+  overflow: hidden;
+}
+.input {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  width: 240px;
+  min-width: 240px;
+  padding: 12px 16px 12px 16px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  z-index: 8;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.value {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  min-width: 0;
+  height: 16px;
+  color: #4b5665;
+  font-family: Inter, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 9;
+}
+.input-6 {
+  flex-shrink: 0;
+  position: absolute;
+  width: 240px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  background: transparent;
+  border: none;
+  z-index: 10;
+  outline: none;
+}
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 460px;
+  height: 40px;
+  margin: 6px 0 0 172px;
+  z-index: 11;
+}
+.frame {
+  flex-shrink: 0;
+  position: relative;
+  width: 178px;
+  height: 40px;
+  z-index: 5;
+  overflow: hidden;
+}
+.input-field-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 8px;
+  position: relative;
+  width: 240px;
+  z-index: 11;
+  overflow: hidden;
+}
+.input-8 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  width: 240px;
+  min-width: 240px;
+  padding: 12px 16px 12px 16px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  z-index: 12;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.password {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  min-width: 0;
+  height: 16px;
+  color: #4b5665;
+  font-family: Inter, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 13;
+}
+.input-9 {
+  flex-shrink: 0;
+  position: absolute;
+  width: 240px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  background: transparent;
+  border: none;
+  z-index: 14;
+  outline: none;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 8px;
+  position: relative;
+  width: 77px;
+  margin: 8px 0 0 477px;
+  padding: 12px 12px 12px 12px;
+  cursor: pointer;
+  background: #2c2c2c;
+  border: 1px solid #2c2c2c;
+  z-index: 15;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.submit {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 16px;
+  color: #f5f5f5;
+  font-family: Inter, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 16;
+}
+.dept-cse-svi {
+  display: block;
+  position: relative;
+  height: 15px;
+  margin: 21px 0 0 477px;
+  color: #a9a9a9;
+  font-family: Inter, var(--default-font-family);
+  font-size: 10.5px;
+  font-weight: 600;
+  line-height: 12.707px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 2;
+}

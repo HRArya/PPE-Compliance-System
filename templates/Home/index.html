@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVIT</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" />
+    <link rel="stylesheet" href="./index.css" />
+    <style>
+      :root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1048px;
+  height: 587px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+}
+.groups {
+  position: relative;
+  width: 1048px;
+  height: 546px;
+  margin: 41px 0 0 -19px;
+  font-size: 0px;
+  background: rgba(0, 0, 0, 0);
+  z-index: 2;
+  overflow: visible auto;
+}
+.final-year-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 259px;
+  height: 69px;
+  margin: 173px 0 0 382.75px;
+  color: #cb6c2b;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30.299999237060547px;
+  font-weight: 600;
+  line-height: 34.23px;
+  text-align: center;
+  text-overflow: initial;
+  z-index: 5;
+  overflow: hidden;
+}
+.workers-guidelines {
+  display: block;
+  position: relative;
+  height: 38px;
+  margin: 8px 0 0 229px;
+  color: #4b5665;
+  font-family: Inter, var(--default-font-family);
+  font-size: 28.700000762939453px;
+  font-weight: 600;
+  line-height: 34.734px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 4;
+}
+.flex-row-bd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 207px;
+  height: 35px;
+  margin: 76px 0 0 412px;
+  z-index: 8;
+}
+.video {
+  flex-shrink: 0;
+  position: relative;
+  width: 86px;
+  height: 35px;
+  cursor: pointer;
+  color: rgba(25, 25, 199, 0.94);
+  font-family: Inter, var(--default-font-family);
+  font-size: 30.299999237060547px;
+  font-weight: 600;
+  line-height: 35px;
+  white-space: nowrap;
+  background: transparent;
+  border: none;
+  z-index: 7;
+}
+.live-button {
+  flex-shrink: 0;
+  position: relative;
+  width: 60px;
+  height: 35px;
+  cursor: pointer;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30.299999237060547px;
+  font-weight: 600;
+  line-height: 35px;
+  white-space: nowrap;
+  background: transparent;
+  border: none;
+  z-index: 8;
+}
+.frame {
+  position: relative;
+  width: 178px;
+  height: 40px;
+  margin: 4px 0 0 172px;
+  z-index: 6;
+  overflow: hidden;
+}
+.cse-dept {
+  display: block;
+  position: relative;
+  height: 15px;
+  margin: 69px 0 0 477px;
+  color: #a9a9a9;
+  font-family: Inter, var(--default-font-family);
+  font-size: 10.5px;
+  font-weight: 600;
+  line-height: 12.707px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 3;
+}
+.root {
+  position: absolute;
+  height: 587px;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0);
+}
+.groups-1 {
+  position: relative;
+  width: 1048px;
+  height: 260px;
+  margin: 2px 0 0 0;
+  background: rgba(0, 0, 0, 0);
+  z-index: 9;
+}
+.flex-column-ec {
+  position: absolute;
+  width: 113px;
+  height: 229px;
+  right: 19px;
+  bottom: 16px;
+  z-index: 16;
+}
+.image {
+  position: relative;
+  width: 113px;
+  height: 92px;
+  margin: 0 0 0 0;
+  font-size: 0px;
+  background: url(./assets/images/c5bf3c6b09b0d04b9083b6dd76861e43c9ebeba6.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 16;
+  overflow: visible auto;
+}
+.grade {
+  display: block;
+  position: relative;
+  height: 10px;
+  margin: 54px 0 0 38px;
+  color: #c7a2a1;
+  font-family: Inter, var(--default-font-family);
+  font-size: 8.399999618530273px;
+  font-weight: 300;
+  line-height: 10px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 18;
+}
+.accredited-by {
+  display: block;
+  position: relative;
+  height: 10px;
+  margin: 6px 0 0 31px;
+  color: #c35a5b;
+  font-family: Inter, var(--default-font-family);
+  font-size: 5.900000095367432px;
+  font-weight: 600;
+  line-height: 7.14px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 17;
+}
+.naac {
+  display: block;
+  position: relative;
+  height: 25px;
+  margin: 3px 0 0 13px;
+  color: #c67274;
+  font-family: Inter, var(--default-font-family);
+  font-size: 28.399999618530273px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 14;
+}
+.national-asscssm {
+  display: block;
+  position: relative;
+  height: 7px;
+  margin: 2px 0 0 10px;
+  color: #7d7d7d;
+  font-family: Inter, var(--default-font-family);
+  font-size: 5.099999904632568px;
+  font-weight: 600;
+  line-height: 6.172px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 13;
+}
+.accreditation-co {
+  display: block;
+  position: relative;
+  height: 7px;
+  margin: 1px 0 0 15px;
+  color: #929292;
+  font-family: Inter, var(--default-font-family);
+  font-size: 6px;
+  font-weight: 600;
+  line-height: 7px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 12;
+}
+.image-2 {
+  position: relative;
+  width: 83px;
+  height: 82px;
+  margin: 10px 0 0 15px;
+  background: url(./assets/images/c2643cb18d6b161533c50fae3406fba5f71e9e39.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 10;
+  overflow: visible auto;
+}
+.image-3 {
+  position: relative;
+  width: 59px;
+  height: 39px;
+  margin: 21px 0 0 11px;
+  background: url(./assets/images/2939c815d894afa4c499e74b75fbbd2288f80c00.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 11;
+}
+.image-4 {
+  position: absolute;
+  width: 132px;
+  height: 132px;
+  right: 897px;
+  bottom: 108px;
+  background: url(./assets/images/f2a5a26a23401cb0c6f93d16089d3e2ab9973301.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 24;
+}
+.svit {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 13px;
+  right: 43px;
+  bottom: 7px;
+  color: #afaeac;
+  font-family: Inter, var(--default-font-family);
+  font-size: 12.199999809265137px;
+  font-weight: 400;
+  line-height: 13px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 24;
+}
+.flex-column-f {
+  position: absolute;
+  width: 715px;
+  height: 134px;
+  right: 157px;
+  bottom: 94px;
+  font-size: 0px;
+  z-index: 22;
+}
+.sai-vidya-instit {
+  display: block;
+  position: relative;
+  height: 29px;
+  margin: 0 0 0 0;
+  color: #c71c1c;
+  font-family: Inter, var(--default-font-family);
+  font-size: 34.900001525878906px;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 22;
+}
+.approved-by-alct {
+  display: block;
+  position: relative;
+  height: 21px;
+  margin: 6px 0 0 19px;
+  color: #3e3e3e;
+  font-family: Inter, var(--default-font-family);
+  font-size: 14.5px;
+  font-weight: 600;
+  line-height: 17.548px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 21;
+}
+.department-of-co {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 581px;
+  height: 47px;
+  margin: 31px 0 0 34.545px;
+  color: #243f76;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20.700000762939453px;
+  font-weight: 600;
+  line-height: 23.166px;
+  text-align: center;
+  text-overflow: initial;
+  z-index: 15;
+  overflow: hidden;
+}
+.raianukunte-beng {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  right: 338px;
+  bottom: 55px;
+  color: #664949;
+  font-family: Inter, var(--default-font-family);
+  font-size: 15.399999618530273px;
+  font-weight: 600;
+  line-height: 18.637px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 19;
+}
+.text-e {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 16px;
+  right: 267px;
+  bottom: 58px;
+  color: #393939;
+  font-family: Inter, var(--default-font-family);
+  font-size: 15.5px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 20;
+}
+.image-5 {
+  position: absolute;
+  height: 587px;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: url(./assets/images/43f572880dd00a4d79c8f9cda4baa48bd6d354c2.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 1;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="groups">
+        <span class="final-year-project"
+          >Final Year Project<br />
+          On</span
+        ><span class="workers-guidelines"
+          >Workers' Guidelines Monitoring System</span
+        >
+        <div class="flex-row-bd">
+          <button  class="video"><a href="/FrontPage">Video</a></button
+          ><button class="live-button"><a href="/webcam">Live</a></button>
+        </div>
+        <div class="frame"></div>
+        <span class="cse-dept">Dept. of CSE,SVIT</span>
+      </div>
+      <div class="root">
+        <div class="groups-1">
+          <div class="flex-column-ec">
+            <div class="image">
+              <span class="grade">GRADE</span
+              ><span class="accredited-by">ACCREDITED BY</span>
+            </div>
+            <span class="naac">NAAC</span
+            ><span class="national-asscssm">NATIONAL ASSCSSMENT AND</span
+            ><span class="accreditation-co">ACCREDITATION COUNCIL</span>
+            <div class="image-2"><div class="image-3"></div></div>
+          </div>
+          <div class="image-4"><span class="svit">SVIT</span></div>
+          <div class="flex-column-f">
+            <span class="sai-vidya-instit"
+              >SAI VIDYA INSTITUTE OF TECHNOLOGY</span
+            ><span class="approved-by-alct"
+              >Approved by AlCTE, New Delhi, Affiliated to VTU, Recognized by
+              Govt. of Karnataka</span
+            ><span class="department-of-co"
+              >Department of Computer Science and Engineering<br />
+              (Accredited by NBA, New Delhi)</span
+            ><span class="raianukunte-beng">Raianukunte,Bengaluru</span
+            ><span class="text-e">-560064</span>
+          </div>
+        </div>
+      </div>
+      <div class="image-5"></div>
+    </div>
+    <!-- Generated by Codia AI - https://codia.ai/ -->
+  </body>
+</html>
